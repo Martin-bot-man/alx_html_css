@@ -1,6 +1,8 @@
 body {
     display:flex; 
     flex-direction: column;
+    color:#000000;
+    background-color: #ACC8E5;
 }
 main{
     display: flex;
@@ -14,4 +16,9 @@ article{
 aside{
     flex:1;
     overflow-y: auto;
+}
+.logo{
+    font-size: 2em;
+    margin: 10px;
+   list-style-type: none;
 }
