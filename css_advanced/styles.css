@@ -1,0 +1,20 @@
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+nav a{
+    color: #ffffff;
+    text-decoration:none ;
+    margin: 0 15px;
+    font-weight: bold;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
