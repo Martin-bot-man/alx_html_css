@@ -1,1 +1,3 @@
-Building a responsive web page using HTML and CSS.
+#HTML and CSS responsive web page.
+
+Building this project from a figma design.
