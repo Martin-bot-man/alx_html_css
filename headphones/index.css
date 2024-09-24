@@ -1,4 +1,40 @@
+.formr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+input{
+    background:;
+    border:none;
+    border-bottom:1px solid rgb(151, 151, 151, 100%)
+}
+.contact{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.button1{
+    display:block;
+    margin:auto;
+    border:none;
+    border-radius:  50px;
+   background-color: rgb(255, 101,101, 100%)
+}
+
+
 footer{
-    background-color: hsl(214, 71, 9, 100%);
+    background-color: rgb(7, 22, 41, 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
 
 }
+.float-right{
+float:right;
+margin-right:10px;
+}
+   
+
