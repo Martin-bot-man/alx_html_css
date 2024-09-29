@@ -1,40 +1,217 @@
-.formr{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    
+
+
+/* .header-container{ */
+  
+  /* background-repeat: no-repeat; */
+  /* background-position: center; */
+/* } */
+.navbar-container{
+  background-image:url(headphones_hero_1.jpg);
+  background-position: center;
+  background-size: cover;
 }
-input{
-    background:;
-    border:none;
-    border-bottom:1px solid rgb(151, 151, 151, 100%)
+.top-header{
+  display: flex;
+  justify-content: space-between;
+
+}
+.logo-container{
+  display: flex;
+  padding-left:70px;
+}
+
+.headphones12{
+  width: 3.9rem;
+  padding-top: 15px;
+}
+.what-we-do-images{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 50px;
+  padding-left: 50px;
+  /* flex-wrap: wrap; */
+}
+.parag11{
+  padding-left: 70px;
+  padding-right: 70px;
+  text-align: center;
+}
+.heading11,p4{
+  color: rgb(7,22,41,100%);
+
+}
+p4{
+  font-size: 0.7rem;
+}
+h2{
+  font-size: 0.9rem;
+}
+.hearing{
+  width: 40px;
+  height: 30px;
+}
+.doings{
+  /* display:flex; */
+  /* background-color: rgb(73, 160, 39); */
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: rgb(7,22,41,100%);
+}
+.paragraph11{
+  padding-right: 15px;
+  padding-left: 15px;
+  text-align: center;
+  padding-bottom: 15px;
+  /* font-size: 0.7rem; */
+}
+.firstimage{
+  margin: 10px;
+}
+
+/* .hearing{
+  margin: 20px;
+  background-color: blue;
+} */
+.what-do-icons{
+  /* background-color: blue; */
+}
+/* .background-image{
+  background-image: url(headphones_hero_2.jpg); */
+
+/* } */
+.results-container{
+/* position:relative; */
+background-image: url(headphones_hero_2.jpg);
+background-size: cover;
+
+/* z-index: 1; */
+  /* background-repeat: no-repeat; */
+  /* transform: scalex(-); */
+  /* background-position: 6cm; */
+  /* z-index: -1; */
+}
+/* .results-container::before{
+  content:"";
+  /* position: absolute; */
+  /* background-image: url(headphones_hero_2.jpg); */
+
+/* } */ 
+.heading1{
+  /* background-color: red; */
+  padding:15px;
+  font-size: 0.8rem;
+  text-align: center;
+  color: #fff;
+}
+.param1{
+  text-align: center;
+  padding-left: 35px;
+  padding-right: 35px;
+  display: flex;
+  
+/* color: #fff; */
+  /* background-color: bisque; */
+}
+.param1, p{
+  /* background-color: blue; */
+  font-size: 0.9rem;
+  color: #fff;
+  
+}
+.discounts{
+  display: flex;
+  padding-top: 15px;
+  flex-wrap:wrap ;
+  padding-bottom: 25px;
+
+  /* align-items: center; */
+  justify-content: center;
+}
+.image2{
+  /* background-color: blue; */
+  
+}
+.hexagon{
+  width: 90px;
+  margin:10px;
+}
+/* start of contact section */
+.contact-container{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  align-items: center;
+
 }
 .contact{
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  
 }
-.button1{
-    display:block;
-    margin:auto;
-    border:none;
-    border-radius:  50px;
-   background-color: rgb(255, 101,101, 100%)
+.contact-heading{
+color:rgb(0, 0, 0) ;
+/* text-shadow: #7c2a2a; */
+}
+.details{
+  margin-bottom:100px;
+}
+.name,.email, .message{
+  border: none;
+  /* color: red; */
+  font-size:0.8rem;
+  display: flex;
+}
+.txt{
+  border: none;
+  
+}
+button{
+  color: #ffffff;
+  background-color: rgb(255,101,101,100%);
+  border-radius: 20px;
+  border: none;
+  font-size: 0.5rem;
+  width: 100px;
+  height:25px
 }
 
 
-footer{
-    background-color: rgb(7, 22, 41, 100%);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
+/* end of contact section */
 
+
+.footer-container{
+  background-color:rgb(7,22,41,100%);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  
+}
+.logo2 img{
+  width:70px;
+  height:20px;
+  margin-left:30px ;
+}
+.exclude-copyright{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 40px;
+  align-items: center;
+}
+.socials img{
+width: 15px;
+height: 15px;
+margin-right: 8px;
+}
+
+
+.copyright{
+  text-align: center;
+  color: #ffffff;
+}
+.copyright p{
+  font-size: 0.4rem;
 
 }
-.float-right{
-float:right;
-margin-right:10px;
-}
-   
-
