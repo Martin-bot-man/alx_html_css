@@ -1,3 +1,7 @@
+body{
+  margin:0;
+  
+}
 
 
 .header-content{
@@ -8,7 +12,7 @@
   /* background-position: center; */
 }
 .navbar-container{
-  background-image:url(headphones_hero_1.jpg);
+  background-image:url("images/headphones_hero_1.jpg");
   background-position: center;
   background-size: cover;
   color: #fff;
@@ -106,7 +110,15 @@ p3{
   width: 3.9rem;
   padding-top: 15px;
 }
+.everycontent{
+background-color: orange;
+}
+.doings{
+  /* background-color: cadetblue; */
+  
+}
 .what-we-do-images{
+  /* background-color: aqua; */
   display: flex;
   justify-content: space-between;
   padding-top: 15px;
@@ -120,12 +132,20 @@ p3{
   padding-right: 70px;
   text-align: center;
 }
-.heading11,p4{
+.heading11,.parag11 p,.parag111 p{
   color: rgb(7,22,41,100%);
 
 }
-p4{
-  font-size: 0.7rem;
+.heading11{
+  
+}
+.parag111{
+/* background-color: aqua; */
+text-align: center;
+/* text-indent: 0; */
+}
+p{
+  /* font-size: 0.7rem; */
 }
 h2{
   font-size: 0.9rem;
@@ -140,23 +160,28 @@ h2{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  color: rgb(7,22,41,100%);
+  /* color: rgb(7,22,41,100%); */
 }
 .paragraph11{
   padding-right: 15px;
   padding-left: 15px;
   text-align: center;
   padding-bottom: 15px;
+  background-color: aqua;
   /* font-size: 0.7rem; */
 }
 .firstimage{
   margin: 10px;
 }
 
-/* .hearing{
-  margin: 20px;
-  background-color: blue;
-} */
+
+ .hearing{ 
+  margin: 20px, 0;
+  /* background-color: blue; */
+  height: 35px;
+  width: 55px;
+  
+} 
 .what-do-icons{
   /* background-color: blue; */
 }
@@ -168,6 +193,7 @@ h2{
 /* position:relative; */
 background-image: url(headphones_hero_2.jpg);
 background-size: cover;
+padding-top: 35px;
 
 /* z-index: 1; */
   /* background-repeat: no-repeat; */
@@ -220,6 +246,7 @@ background-size: cover;
   width: 90px;
   margin:10px;
 }
+
 /* start of contact section */
 .contact-container{
   display: flex;
@@ -229,7 +256,7 @@ background-size: cover;
 
 }
 .contact{
-  text-align: center;
+  /* text-align: center; */
   
 }
 .contact-heading{
@@ -239,12 +266,23 @@ color:rgb(0, 0, 0) ;
 .details{
   margin-bottom:100px;
 }
-.name,.email, .message{
-  border: none;
+.name , .email, .message{
+  /* border:2px solid black; */
+  /* border: none; */
   /* color: red; */
   font-size:0.8rem;
-  display: flex;
+  margin: 15px 0px;
 }
+
+.contact .label {
+  display: block;
+}
+
+.name input,.email input, .message input{
+  outline: none;
+  border-bottom: 1px solid grey;
+}
+
 .txt{
   border: none;
   
@@ -265,22 +303,28 @@ button{
 
 .footer-container{
   background-color:rgb(7,22,41,100%);
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  padding-top: 20px;
+  /* margin: 0; */
+  /* padding: 0; */
+  /* box-sizing: border-box; */
   
   
 }
 .logo2 img{
   width:70px;
   height:20px;
-  margin-left:30px ;
+  /*  ; */
 }
 .exclude-copyright{
+  /* margin-top: 60px; */
   display: flex;
   justify-content: space-between;
   margin-right: 40px;
+  margin-left:50px;
+
   align-items: center;
+  
+
 }
 .socials img{
 width: 15px;
